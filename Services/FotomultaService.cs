@@ -17,8 +17,7 @@ namespace ITMFotomultas.Services
         public async Task<Fotomulta> CrearFotomulta(Fotomulta fotomulta)
         {
             // Check if Vehiculo is provided
-            if (fotomulta.Vehiculo != null)
-            {
+   
                 var vehiculo = await _context.Vehiculos
                     .FirstOrDefaultAsync(v => v.Placa == fotomulta.Vehiculo.Placa);
 
@@ -30,7 +29,7 @@ namespace ITMFotomultas.Services
                 }
 
                 fotomulta.VehiculoId = vehiculo.Id;
-            }
+            
 
             _context.Fotomultas.Add(fotomulta);
             await _context.SaveChangesAsync();

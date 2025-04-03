@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 namespace ITMFotomultas.Models
 {
@@ -14,7 +13,6 @@ namespace ITMFotomultas.Models
         public int? VehiculoId { get; set; }
         //necesito que estos campos no sean requeridos
         
-        [JsonIgnore]
         public Vehiculo? Vehiculo { get; set; }
         public List<Imagen> Imagenes { get; set; } = new();
     }

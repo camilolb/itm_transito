@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITMFotomultas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f08a7822a7bce819e2206ac02afd9ca6de0e2ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29e32908c9cd05278092cc21b1e09595d398e241")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITMFotomultas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITMFotomultas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

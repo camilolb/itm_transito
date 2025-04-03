@@ -10,6 +10,7 @@ namespace ITMFotomultas.Controllers
     public class FotomultaController : ControllerBase
     {
         private readonly IFotomultaService _service;
+        
 
         public FotomultaController(IFotomultaService service)
         {
