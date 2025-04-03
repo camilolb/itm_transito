@@ -31,6 +31,18 @@ namespace ITMFotomultas.Data
             modelBuilder.Entity<Fotomulta>()
                 .Property(f => f.Valor)
                 .HasPrecision(18, 2);
+                
+            // Configure Imagen to have nullable FotomultaId
+            modelBuilder.Entity<Imagen>()
+                .Property(i => i.FotomultaId)
+                .IsRequired(false);
+                
+            // Update the relationship to be optional
+            modelBuilder.Entity<Imagen>()
+                .HasOne(i => i.Fotomulta)
+                .WithMany(f => f.Imagenes)
+                .HasForeignKey(i => i.FotomultaId)
+                .IsRequired(false);
         }
     }
 } 

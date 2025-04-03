@@ -1,4 +1,5 @@
 using System;
+using System.Text.Json.Serialization;
 
 namespace ITMFotomultas.Models
 {
@@ -7,7 +8,9 @@ namespace ITMFotomultas.Models
         public int Id { get; set; }
         public string NombreArchivo { get; set; }
         public string Ruta { get; set; }
-        public int FotomultaId { get; set; }
-        public Fotomulta Fotomulta { get; set; }
+        public int? FotomultaId { get; set; }
+        
+        [JsonIgnore]
+        public Fotomulta? Fotomulta { get; set; }
     }
 } 

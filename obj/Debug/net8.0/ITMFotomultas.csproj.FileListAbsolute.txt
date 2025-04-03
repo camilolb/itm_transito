@@ -167,3 +167,4 @@
 /Users/clopezb/Desktop/ITMFotomultas/obj/Debug/net8.0/ITMFotomultas.pdb
 /Users/clopezb/Desktop/ITMFotomultas/obj/Debug/net8.0/ITMFotomultas.genruntimeconfig.cache
 /Users/clopezb/Desktop/ITMFotomultas/obj/Debug/net8.0/ref/ITMFotomultas.dll
+/Users/clopezb/Desktop/ITMFotomultas/obj/Debug/net8.0/ITMFotomultas.sourcelink.json
